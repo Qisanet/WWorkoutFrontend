@@ -27,7 +27,7 @@ const WorkoutForm = () => {
         { title, reps, load, weight },
         { headers: { Authorization: `Bearer ${token}` } }
       )
-      .then((response) => {
+      .then(() => {
         enqueueSnackbar('Workout created successfully!', { variant: 'success' });
         setTitle('');
         setReps('');
