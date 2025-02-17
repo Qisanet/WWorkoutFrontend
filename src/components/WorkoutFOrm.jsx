@@ -4,7 +4,7 @@ import  { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import BackArrow from "./BackArrow";
 
-const WorkForm = () => {
+const WorkoutForm = () => {
   const [title, setTitle] = useState('');
   const [reps, setReps] = useState('');
   const [load, setLoad] = useState('');
@@ -102,4 +102,4 @@ const WorkForm = () => {
   );
 };
 
-export default WorkForm;
+export default WorkoutForm;
